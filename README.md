@@ -1,1 +1,1 @@
-# Challenge4
+# For this code, the "index.html" contains what the page will looks like before starting the quiz. The "style.css" file contains the styling of the page and the "script.js" contains Javascript code for interacting with the page once the quiz begins.
