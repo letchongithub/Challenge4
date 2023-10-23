@@ -1,35 +1,23 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Quiz</title>
     <link rel="stylesheet" href="style.css">
-    <title>Quiz</title>
 </head>
 
 <body>
-    <div class="quiz">
-        <h1>Javascript Quiz</h1>
-        <h2>Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your score/time by ten seconds!</h2>
-        <div class="start">
-            <button id="beginquiz">Begin Quiz</button>
-        </div>
-        <div id="questions&answers">
-            
-        </div>
-        <div class="score">
-            <div id="grade"></div>
-            <button id="backtomenu">Return to menu</button>
-            </div>
-        <div class="timer-div"></div>
-        <div class="timeleft">Time:75s</div>
-        </div>
+    <div class="quiz-container">
+        <div id="question"></div>
+        <div id="options" class="options-container"></div>
+        <div id="timer">Timer: <span id="timer-display">0</span> seconds</div>
+        <div id="score">Score: <span id="score-display">0</span></div>
+        <button id="retry-btn" class="hide">Retry</button>
     </div>
+
     <script src="script.js"></script>
 </body>
-
-<footer>
-
-</footer>
 
 </html>

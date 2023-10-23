@@ -1,21 +1,21 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
     background-color:darkcyan;
-}
-
-
-
-
-.quiz {
-    background-color:white;
     width: 80%;
     max-width: 600px;
     margin: 50px auto 0;
     border-radius: 10px;
     padding: 20px;
+}
+
+.quiz-container {
+    text-align: center;
+    background-color:white
+}
+
+.option-btn {
+    margin: 10px;
+}
+
+.hide {
+    display: none;
 }
